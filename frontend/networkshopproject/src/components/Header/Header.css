@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between; /* Spread elements across the row */
+    align-items: center; /* Center vertically */
+    margin: 30px;
+    padding: 20px;
+    gap: 20px; /* Space between children */
+}
+
+.loginBtnSection {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between button and link */
+}
+
+.loginBtnSection > button {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #154489;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    transition: all 0.3s;
+}
+
+.loginBtnSection > button:hover {
+    background-color: #0d6efd;
+}
+
+.loginBtnSection > a {
+    color: #154489;
+    font-size: 22px;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+
+.loginBtnSection > a:hover {
+    color: #0d6efd;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center; /* Align input and icon vertically */
+    background-color: #f4f4f4;
+    width: 800px;
+    border-radius: 7px;
+    padding: 5px 10px; /* Add some inner spacing */
+    gap: 8px; /* Space between input and icon */
+}
+
+.searchBar > input {
+    flex-grow: 1; /* Take up remaining space */
+    height: 30px;
+    font-size: 15px;
+    color: #474747;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background-color: #f4f4f4;
+}
+
+.searchBar > i {
+    font-size: 18px;
+    color: #154489;
+}
+
+.logo img {
+    height: 50px; /* Adjust as needed */
+    object-fit: contain;
+}
