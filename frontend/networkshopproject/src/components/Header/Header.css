@@ -1,11 +1,16 @@
-.container {
+.headerContainer{
+    box-sizing: border-box;
+}
+
+
+
+.headerHeadContainer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between; /* Spread elements across the row */
     align-items: center; /* Center vertically */
-    margin: 30px;
-    padding: 20px;
     gap: 20px; /* Space between children */
+    padding: 10px 20px;
 }
 
 .loginBtnSection {
