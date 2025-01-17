@@ -1,0 +1,50 @@
+
+
+.famProducts{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.famProducsTitel{
+    display: flex;
+    justify-content: start;
+    margin: 20px;
+    padding-right: 20px;
+}
+
+
+.newProducts{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.newProducsTitel{
+    display: flex;
+    justify-content: start;
+    margin: 20px;
+    padding-right: 20px;
+}
+
+.newsCards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.newsCardTitle{
+    display: flex;
+    justify-content: start;
+    margin: 20px;
+    padding-right: 20px;
+}
+
+.newsCards{
+    display: flex;
+    gap: 30px;
+}

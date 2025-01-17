@@ -1,0 +1,99 @@
+
+.newsCardContainer{
+    padding: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.200);
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.newsCardContainer:hover{
+    box-shadow: 0 6px 20px #154489;
+}
+
+
+.newsCardContainer>img{
+    width: 350px;
+    border-radius: 10px;
+}
+
+.newsCardContainer>h3{
+    display: flex;
+    color: #111;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+.newsCardContainer>h3:hover{
+    color:#154489;
+}
+
+.newsCardContainer>p{
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.newsCardContainer>button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    background-color: #fff;
+    color: #154489;
+    font-size: 15px;
+    font-weight: bold;
+    outline-style: none;
+    border: 2px solid #154489;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+}
+
+.newsCardContainer>button:hover{
+    color: white;
+    background-color: #154489;
+}
+
+
+.newsCardExInfo{
+    display: flex;
+    gap: 10px;
+}
+
+
+.newCardView{
+    display: flex;
+}
+
+.newCardView>p{
+    font-size: 13px;
+    color: #777;
+}
+
+.newCardView>i{
+    margin-left: 5px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #777;
+}
+
+.newCardViewTime{
+    display: flex;
+}
+
+.newCardViewTime>p{
+    font-size: 13px;
+    color: #777;
+}
+
+.newCardViewTime>i{
+    margin-left: 5px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #777;
+}

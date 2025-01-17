@@ -1,0 +1,25 @@
+.exteraInfo{
+    display: flex;
+    gap: 70px;
+    justify-content: space-evenly;
+    margin: 30px;
+
+}
+
+.exteraInfoItem{
+    display: flex;
+    color: #474747;
+    gap: 30px;
+
+}
+
+
+.exteraInfoItem>i{
+    font-size: 55px;
+    margin-top: 20px;
+}
+
+.exteraInfoTitels>p{
+    font-size: 12px;
+}
+

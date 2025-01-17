@@ -38,20 +38,14 @@
 }
 
 
-
-
-
-
-
-
-
-
-
 .Header{
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-    position: fixed;
     top: 0;
     right: 0;
     width: 100%;
-    z-index: 3;
 }
+
+.mainBody{
+  margin: 30px;
+}
+
