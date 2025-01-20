@@ -1,4 +1,6 @@
-
+.mainBodyContainer{
+    margin: 30px;
+}
 
 .famProducts{
     display: flex;

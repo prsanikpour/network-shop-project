@@ -1,8 +1,9 @@
 import './App.css';
-import Header from './components/Header/Header';
-import MainBody from './components/mainBody/mainBody';
-import Footer from './components/Footer/footer';
+import {BrowserRouter, Routes , Route} from 'react-router-dom'
 
+
+import Home from './pages/Home/Home';
+import LogIn from './pages/logIn/logIn';
 
 
 
@@ -10,19 +11,16 @@ function App() {
   return (
     <div className="App">
       
-      <div className="Header">
-        <Header/>
-      </div>
-
-      <div className="mainBody">
-        <MainBody/>
-      </div>
-
-      <div className="Footer">
-        <Footer/>
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home/>}></Route>
+          <Route path='/Home' element={<Home/>}></Route>
+          <Route path='/logIn' element={<LogIn/>}></Route>
+        </Routes>
+      </BrowserRouter>
+      
     </div>
-  );
+  )
 }
 
 export default App;

@@ -38,21 +38,3 @@
 }
 
 
-.Header{
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-    top: 0;
-    right: 0;
-    width: 100%;
-}
-
-.mainBody{
-  margin: 30px;
-}
-
-.Footer{
-  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.12);
-  top: 0;
-  right: 0;
-  padding: 30px;
-}
-
