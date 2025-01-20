@@ -25,14 +25,14 @@
     position: relative;
 }
 
-.navBar > ul > li > a {
+.navBarItemLink {
     text-decoration: none;
     font-weight: 700;
     color: #154489;
     padding: 10px 0;
     display: inline-block;
 }
-.navBar > ul > li > a:hover{
+.navBarItemLink:hover{
     color: #007BFF;
 }
 
