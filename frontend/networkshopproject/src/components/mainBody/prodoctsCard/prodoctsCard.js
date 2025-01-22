@@ -1,4 +1,6 @@
 import './productsCard.css'
+import {Link} from 'react-router-dom'
+
 
 export default function ProdductsCard(){
     return(
@@ -10,9 +12,14 @@ export default function ProdductsCard(){
             <p>
                 1$
             </p>
-            <button>
-                خرید    
-            </button>
+            <Link to='/ProductPage'>
+
+                <button className='productCardBtn'>
+                    خرید    
+                </button>
+
+            </Link>
+            
         </div>
     )
 }

@@ -14,9 +14,11 @@ export default function Header(){
                             <i class="fa-solid fa-user"></i>
                         </button>
                     </Link>
-                    <a href="">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
+                    <Link to={"/userBasket"}>
+                        <a href="" className='userBasketIcon'>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </Link>
                 </div>
                 <div className="searchBar">
                     <input type="search" placeholder=" جستجو"/>

@@ -44,14 +44,14 @@
     background-color: #0d6efd;
 }
 
-.loginBtnSection > a {
+.userBasketIcon{
     color: #154489;
     font-size: 22px;
     margin-top: 10px;
     transition: all 0.3s;
 }
 
-.loginBtnSection > a:hover {
+.userBasketIcon:hover {
     color: #0d6efd;
 }
 

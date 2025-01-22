@@ -1,0 +1,16 @@
+.userBasket{
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Ensure both columns stretch to the same height */
+    gap: 30px; /* Gap between the columns */
+    margin: 50px; 
+}
+
+.userBasketCard{
+    flex: 2;
+}
+
+.userBasketPayCard{
+    flex: 1;
+    
+}

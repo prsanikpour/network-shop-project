@@ -13,7 +13,7 @@
     width: 200px;
 }
 
-.productCardContainer>button{
+.productCardBtn{
     width: 150px;
     text-align: center;
     background-color: #154489;
@@ -27,6 +27,6 @@
     transition: all 0.3s;
 }
 
-.productCardContainer>button:hover{
+.productCardBtn:hover{
     background-color: #0d6efd;
 }

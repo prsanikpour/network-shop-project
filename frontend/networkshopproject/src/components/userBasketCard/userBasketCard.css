@@ -1,0 +1,86 @@
+.userBasketCardContainer{
+    padding: 30px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.200);
+    transition: all 0.3s;
+    border-radius: 10px;
+    width: inherit;
+    margin-bottom: 20px;
+}
+
+.userBasketCardContainer:hover{
+    box-shadow: 0 6px 20px #154489;
+}
+
+.userBasketCardInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.userBasketCardInfo>img{
+    height: 100px;
+}
+
+.userBasketCardTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.userBasketCardTitle>h4{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 0;
+}
+
+.userBasketCardTitle>p{
+    color: #474747;
+    width: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    text-align: right;
+}
+
+.userBasketCardContainer>hr{
+    line-height: 0;
+}
+
+.userBasketCardDate{
+    display: flex;
+    justify-content: start;
+    color: #474747;
+    gap: 8px;
+    margin: 10px;
+}
+
+.userBasketCardDate>i{
+    font-size: 20px;
+}
+
+.userBasketCardDate>span{
+    font-weight: 700;
+    padding-top: 3px;
+}
+
+.userBasketCardStatus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.userBasketCardStatus > i {
+    color: rgb(191, 5, 5);
+    border: 2px solid rgb(191, 5, 5);
+    font-size: 25px;
+    padding: 6px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.userBasketCardStatus > i:hover {
+    transform: scale(1.1); 
+    color: white;
+    background-color: rgb(191, 5, 5);
+}
+
+
